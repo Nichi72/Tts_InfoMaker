@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TTS_InfoMaker2.exe" version="1.0.0.0" publicKeyToken="c00fe2390337e5b9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TTS_InfoMaker2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TTS_InfoMaker2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+          <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+          <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+          이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+          requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.dll" size="105984">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack" version="1.1.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e4g4i4Nn8Nhz0OO2b1M4acJONG+28LLGx4P5McyaFjE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.Shell.dll" size="542720">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack.Shell" version="1.1.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ql2AzcDaUpcAMTCbRX4+P9UFuxrBP7eYAdFb+7SnALI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.Json.dll" size="15872">
+      <assemblyIdentity name="System.Net.Json" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wjiZnqPK88SQcXrvIBhrtJwRWixTBXvbIC2sXm6hE8E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TTS_InfoMaker2.exe" size="14344">
+      <assemblyIdentity name="TTS_InfoMaker2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rqGhEbtWReK/SStl6Xl68141WaS7tmHHtTx2SrviewI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TTS_InfoMaker2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-HPSI90A\graction_pc" issuerKeyHash="8193414994b46e60562992fb69ccb44d89c11a4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3L+kzzdPw1AJoOLZOrQQuDSh02sAFMCFB6XrB8d+rUQ=</DigestValue></Reference></SignedInfo><SignatureValue>QRrbMAK+4jmD9Ma6ObcGjvKYYSEgq47dJKIrE9Mic7d45NNNVO9X7AfZwxiuTpzsSfWk+FCrmqg890zrXdKZHrduSxMw9Jk9lxguNiG5RyVCAwztSQCFeDrD8ni9AdVytKAnlHDHNlkZtPi5heK8qHf35JTGjJ5/x5n+4NoLeRw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yh3eFe+rf3muvhzdlgvr/IHZ2eN3V0ukmrTfBmRAHjKkVAwP2Tc952Bxokv8/vqUcpOw4+5OgUhX+C8avsk7jYlWQS+0LzNLNL1nWaBgVPQ5J8EEy7ftlB3q7R6vb5IpyLPtW7lLg9mPc7EFL0q6Y1iqFH+NU3SfJvJrvAOewfk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="44ad7ec707eba50785c014006bd3a134b810b43ad9e2a00950c34f37cfa4bfdc" Description="" Url=""><as:assemblyIdentity name="TTS_InfoMaker2.exe" version="1.0.0.0" publicKeyToken="c00fe2390337e5b9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-HPSI90A\graction_pc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AxZio3R7DlWC/iP3nBHY+a+ZbcSsI6LGMoVOAC+NgIk=</DigestValue></Reference></SignedInfo><SignatureValue>QJ/NMBOc5cj2LAwa9O8+vQHLVhBNtv6rBEfsq+C3tevhkTKV+j5hcCfFlmHsB0wr3oX+CyH1Z8Jgu1OvfzoVsdT2Nww7fxtSTmtI+CsvfjxLOVTuYVW8fVP9QUdjLw/x1sGiv9hH3ppYgZFZKMm+ArTf97hsNNSyETQQJJu+gNY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yh3eFe+rf3muvhzdlgvr/IHZ2eN3V0ukmrTfBmRAHjKkVAwP2Tc952Bxokv8/vqUcpOw4+5OgUhX+C8avsk7jYlWQS+0LzNLNL1nWaBgVPQ5J8EEy7ftlB3q7R6vb5IpyLPtW7lLg9mPc7EFL0q6Y1iqFH+NU3SfJvJrvAOewfk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQXraCzsttO4NJTa0eGlTorDANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEgAUABTAEkAOQAwAEEAXABnAHIAYQBjAHQAaQBvAG4AXwBwAGMwHhcNMjAxMDIyMDYwNzUyWhcNMjExMDIyMTIwNzUyWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEgAUABTAEkAOQAwAEEAXABnAHIAYQBjAHQAaQBvAG4AXwBwAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMod3hXvq395rr4c3ZYL6/yB2dnjd1dLpJq03wZkQB4ypFQMD9k3PedgcaJL/P76lHKTsOPuToFIV/gvGr7JO42JVkEvtC8zSzS9Z1mgYFT0OSfBBMu37ZQd6u0er2+SKciz7Vu5S4PZj3OxBS9KumNYqhR/jVN0nybya7wDnsH5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAVSBEiC4T3QUiT/IyhAqBCKk+73Ycq53w2GSqhb9s3ROnLQNwGJdRzAvjRbtiVqiKedgCgIgB1H1zdPk/HKbHqKx8P4YT0ML7HiVPLbynpCE1+wRvekK7TenwTDL1YsAmCoOwC1+VzlLuPJoDyiKseSJC4DUPCRE5NZT9HkIzeaA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
