@@ -14,7 +14,7 @@
         <TextBox HorizontalAlignment="Left" Height="33" Margin="4,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" x:Name="TexBox_FileName" Text="X_DataInfo&#xA;" TextChanged="FileName_TextChanged" Grid.Column="1"/>
         <Button Content="변환할 TTS 파일 경로 설정" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="4,50,0,0" x:Name="FileOpenBtn" Click="FileOpenBtn_Click" Height="34" Grid.Column="1"/>
         <Label Content="2. DataInfo 파일의 이름을 설정합니다." HorizontalAlignment="Left" Height="24" Margin="4,113,0,0" VerticalAlignment="Top" Width="264" Grid.Column="1"/>
-        <Button Content="변환 및 DataInfo 생성" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Margin="4,235,0,0" Click="Button_Click" Height="48" Grid.Column="1"/>
+        <Button Content="변환 및 DataInfo 생성" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Margin="4,235,0,0" Click="ConvertButton_Click" Height="48" Grid.Column="1"/>
         <Label Content="1. 변환할 TTS 파일의 파일 경로를 설정합니다. " HorizontalAlignment="Left" Height="24" Margin="4,21,0,0" VerticalAlignment="Top" Width="283" Grid.Column="1"/>
         <Label Content="3. 한글 제거 및 DataInfo 파일을 생성합니다." HorizontalAlignment="Left" Height="24" Margin="4,206,0,0" VerticalAlignment="Top" Width="310" Grid.Column="1"/>
         <Label Content="4. DataInfo 폴더 , Audios 폴더가 담긴 폴더를 &#xD;&#xA;유니티로 가져갑니다. " HorizontalAlignment="Left" Height="50" Margin="0,310,0,0" VerticalAlignment="Top" Width="310" Grid.Column="1"/>
